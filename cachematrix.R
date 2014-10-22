@@ -3,13 +3,13 @@
 makeCacheMatrix <- function(x = matrix()) { # Creates a special "matrix" object
                                             # that can cache its inverse.   
   m <- matrix()
-  set <- function(y) { # set the matrix
+  set <- function(y) { # Set the matrix.
     x <<- y
     m <<- matrix()
   }
-  get <- function() x # get the matrix
-  setinverse <- function(solve) m <<- solve # set the inverse
-  getinverse <- function() m # get the inverse
+  get <- function() x # Get the matrix.
+  setinverse <- function(solve) m <<- solve # Set the inverse.
+  getinverse <- function() m # Get the inverse.
   list(set = set, get = get,
        setinverse = setinverse,
        getinverse = getinverse)
