@@ -1,6 +1,6 @@
 ### Unit tests (with expected output) for Programming Assignment 2 by Gregory D. Horne, COMMUNITY TA
 
-```
+```R
 > source("cachematrix.R")
 > amatrix = makeCacheMatrix(matrix(c(1, 2, 3, 4), nrow = 2, ncol = 2))
 > amatrix$get() # Returns original matrix
@@ -33,7 +33,3 @@
 [1,] -0.13333333  0.2
 [2,]  0.01010101  0.0
 ```
-### Support StackEdit
-[StackEdit](https://stackedit.io/) is a full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
-
-[![](https://cdn.monetizejs.com/resources/button-32.png)](https://monetizejs.com/authorize?client_id=ESTHdCYOi18iLhhO&summary=true)
