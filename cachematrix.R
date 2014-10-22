@@ -1,4 +1,5 @@
-### Assignment: Caching the Inverse of a Matrix
+'''R
+# Assignment: Caching the Inverse of a Matrix
 
 makeCacheMatrix <- function(x = matrix()) { # Creates a special "matrix" object
                                             # that can cache its inverse.   
@@ -34,3 +35,4 @@ cacheSolve <- function(x, ...) { # Calculates the inverse
                   # in the cache via the setinverse function. 
   m
 }
+'''
